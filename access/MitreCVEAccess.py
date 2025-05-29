@@ -17,7 +17,7 @@ def search_nvd(keyword):
 
 
 if __name__ == "__main__":
-    keyword = "html"  # Replace with your search term
+    keyword = "html"
     data = search_nvd(keyword)
 
     if data:
